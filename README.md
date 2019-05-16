@@ -14,7 +14,7 @@ Predictors (Continuous): `cyl` `disp` `hp` `drat` `wt` `qsec` `gear`
 
 <br/> 
 
-## Running Mtcars Flask API
+## Instructions
 Please follow the steps below to execute the API:
 
 + Download the files in this repository

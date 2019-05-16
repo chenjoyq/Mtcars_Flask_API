@@ -6,7 +6,7 @@ Construction of local flask API with Docker container functionality. Using `mtca
 
 #### MODEL PREDICTION VARIABLES
 Outcome Variable: `mpg`  
-Predictors: `cyl` `disp` `hp` `drat` `wt` `qsec` `vs` `am` `gear` `carb`  
+Predictors (Continuous): `cyl` `disp` `hp` `drat` `wt` `qsec` `vs` `gear`  
 <br/> 
 <br/>
 

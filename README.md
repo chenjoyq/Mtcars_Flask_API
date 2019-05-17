@@ -6,7 +6,7 @@ Construction of local flask API with Docker container functionality. Using `mtca
 
 #### MODEL PREDICTION VARIABLES
 Outcome Variable: `mpg`  
-Predictors (Continuous): `cyl` `disp` `hp` `drat` `wt` `qsec` `gear`  
+Predictors (Continuous): `cyl` `disp` `hp` `drat` `wt` `qsec` 
 
 <br/>
 
@@ -30,6 +30,6 @@ Please follow the steps below to execute the API:
 The response should say: Server is up!
 
 + To send a request to the API, use a `curl` command like the example below:  
-`curl -H "Content-Type: application/json" -X POST -d '{"cyl":"6.0","disp":"","hp":"","drat":"","wt":"","qsec":"","gear":""}' "http://localhost:5000/predict_mpg"`
+`curl -H "Content-Type: application/json" -X POST -d '{"cyl":"6.0","disp":"200","hp":"175","drat":"3.5","wt":"3.1","qsec":"16"}' "http://localhost:5000/predict_mpg"`
   + Note: input includes prediction variables as listed in section "Model Prediction Variables"
   + Output will be returned as a linear model prediction of `mpg` using given inputs

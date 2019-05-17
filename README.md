@@ -14,7 +14,7 @@ Predictors (Continuous): `cyl` `disp` `hp` `drat` `wt` `qsec` `gear`
 
 <br/> 
 
-## Instructions
+## Instructions: Running API
 Please follow the steps below to execute the API:
 
 + Download the files in this repository
@@ -39,3 +39,9 @@ The response should say: Server is up!
 **NOTES**: 
 - Input includes prediction variables as listed above and values can be altered
 - Output will be returned as a linear model prediction of `mpg` using given inputs
+
+<br/> 
+
+## Shutdown API
+To stop your server, type `ctrl-C`. Check if any docker containers are running with `docker container ls` and shutdown using `docker container kill <container-name>`
+

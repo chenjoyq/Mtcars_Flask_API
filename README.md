@@ -21,7 +21,13 @@ Please follow the steps below to execute the API:
 
 + In your terminal, navigate to the **docker** folder directory and run `docker-compose up` to create your local server
 
-+ If created successfully, 
++ If created successfully, you should see 9 lines with `flask_1 | ....` outputs but will *not* be receiving a prompt back
+
++ Open up a new terminal and navigate to the same **docker** directory
+
++ To check the status of the server run:
+`curl https://localserver:5000/`  
+The response should say: Server is up!
 
 + To send a request to the API, use a `curl` command like the example below:  
 `curl -H "Content-Type: application/json" -X POST -d '{"cyl":"6.0","disp":"","hp":"","drat":"","wt":"","qsec":"","gear":""}' "http://localhost:5000/predict_mpg"`

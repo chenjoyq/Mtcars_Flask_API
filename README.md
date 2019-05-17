@@ -31,6 +31,11 @@ The response should say: Server is up!
 
 + To send a request to the API, use a `curl` command like the example below:  
 `curl -H "Content-Type: application/json" -X POST -d '{"cyl":"6.0","disp":"200","hp":"175","drat":"3.5","wt":"3.1","qsec":"16","gear":"4"}' "http://localhost:5000/predict_mpg"`  
-The response should look like: `{mpg prediction: 18.6039}`
-  + Note: input includes prediction variables as listed in section "Model Prediction Variables" and values can be altered
-  + Output will be returned as a linear model prediction of `mpg` using given inputs
+
+> The response should look like: `{mpg prediction: 18.6039}`
+
+<br/>
+
+**NOTES**: 
+- Input includes prediction variables as listed above and values can be altered
+- Output will be returned as a linear model prediction of `mpg` using given inputs
